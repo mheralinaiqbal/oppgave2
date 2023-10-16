@@ -1,0 +1,83 @@
+<body>
+    <h1 class="overskrift">Vår meny</h1>
+    <table border="2">
+        <tr>
+            <th colspan="3">Våre matretter</th>
+        </tr>
+        <tr>
+            <th>Rett</th>
+            <th>Pris</th>
+            <th></th>
+        </tr>
+        <td>Fersk pizza</td>
+        <td>150 kr</td>
+        <td><img src="delicious-pizza.jpeg" alt="Her er et bilde at en fersk pizza."
+        height="130"
+        width="200"
+        ></td>
+        <tr>
+            <td>Stekt ris</td>
+            <td>120 kr</td>
+            <td><img src="nasi-goreng-fried-rice.jpeg" alt="Her er et bilde av stekt ris på en tallerken."
+            height="200"
+            width="290">
+            </td>
+        </tr>
+        <td>Lasagne</td>
+        <td>130 kr</td>
+        <td><img src="lasagne-made-in-italy.jpeg" alt="Her er et bilde at et stykke lasagne på en tallerken."
+        height="150"
+        width="300"></td>
+        <tr>
+            <td>Sushi</td>
+            <td>90 kr</td>
+            <td><img src="view-of-a-sushi-platter.jpeg" alt="Her er et bilde av flere typer sushi."
+                height="150"
+                width="250"></td>
+        </tr>
+        <tr>
+            <td>Burger</td>
+            <td>150 kr</td>
+            <td><img src="burger-on-a-wooden-backgound.jpeg" alt="Her er et bilde av en burger på et brett."
+            height="150"
+            width="250"></td>
+        </tr>
+    </table>
+    <br>
+    <form action="#">
+        <select>
+            <option value="velgrett">Velg matrett</option>
+            <option value="ferskpizza">Fersk pizza</option>
+            <option value="stektris">Stekt ris</option>
+            <option value="lasagne">Lasagne</option>
+            <option value="sushi">Sushi</option>
+            <option value="burger">Burger</option>
+        </select>
+        <button type="submit">Legg inn din bestilling</button>
+    </form>
+</body>
+<style>
+    .overskrift{
+        font-family: 'Times New Roman';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+    table{
+        width: 100%;
+    }
+    img{
+        align-items: center;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    th{
+        padding: 12px 15px;
+    }
+    td{
+        padding: 12px 15px;
+    }
+</style>
